@@ -11,7 +11,7 @@ python3 -m venv ./venv
 source venv/bin/activate
 pip install --upgrade pip
 # Setup dirs and empty files
-mkdir src && mkdir tests && touch src/__init__.py
+mkdir src && mkdir tests && touch src/__init__.py && touch tests/__init__.py
 # Download files
 STARTER_PROJECT_PATH=https://www.github.com/brendenvogt/python-package-starter/
 curl -K $STARTER_PROJECT_PATH/.gitignore -o .gitignore
