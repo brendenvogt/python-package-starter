@@ -34,3 +34,7 @@ pip freeze > requirements.txt
 
 - prerequisites: `python3 -m pip install --upgrade twine`
 - publish: `python3 -m twine upload --repository testpypi dist/*`
+
+## Download
+
+- `python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE`
